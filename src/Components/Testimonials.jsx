@@ -2,7 +2,7 @@ import React from "react";
 
 import Classes from "../Styles/Testimonials.module.css";
 
-import avatar from "../assets/avatar.jpg";
+import avatar from "../assets/joly pic.jpg";
 import avatar2 from "../assets/avatar2.jpg";
 import avatar3 from "../assets/avatar3.jpg";
 
@@ -18,7 +18,7 @@ function Testimonials() {
         <div className={Classes.testimonialBox}>
           <FontAwesomeIcon icon={faQuoteLeft} className={Classes.Icon} />
           <p>
-            Samim travel has such a user-friendly website. Easy to navigate,
+            Bilkish travel has such a user-friendly website. Easy to navigate,
             search and fiddle with dates instead of having to call up. Once
             decided, the booking process was swift and easy, thank you.
           </p>
@@ -26,8 +26,8 @@ function Testimonials() {
           <div className={Classes.info}>
             <img src={avatar} alt="image" />
             <div>
-              <h3>Rahi Ahmed</h3>
-              <span>CEO • webtechbyrahi channel</span>
+              <h3>Bilkish</h3>
+              <span>CEO • webtechbyjoly channel</span>
             </div>
           </div>
         </div>
