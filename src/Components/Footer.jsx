@@ -1,7 +1,6 @@
 import React from "react";
 
 import Classes from "../Styles/Footer.module.css";
-import footerLogo from "../assets/footerlogo.jpg";
 
 import facebook from "../assets/facebook.svg";
 import github from "../assets/github.svg";
@@ -12,8 +11,8 @@ function Footer() {
     <footer className={Classes.footerContainer}>
       <div className={Classes.footer}>
         <div className={Classes.socialLink}>
-          <p>+8801305282768</p>
-          <p>samimtravels@gmail.com</p>
+          <p>+990 5282 5768</p>
+          <p>bilkishtravels@gmail.com</p>
           <a href="https://web.facebook.com/rahi680/">
             <img src={facebook} alt="" />
           </a>
@@ -27,9 +26,9 @@ function Footer() {
 
         <div className={Classes.footerLogo}>
           <a href="#hero">
-            <img src={footerLogo} alt="" />
+           
             <p>
-              Samim <span>Travels</span>
+              Bilkish <span>Travels</span>
             </p>
           </a>
         </div>
